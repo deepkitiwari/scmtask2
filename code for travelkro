@@ -1,1 +1,390 @@
 
+
+[23:03, 22/03/2023] Deepika: email=input("Enter your mail id")
+
+mobile=input("Enter your mobile number")
+
+m=mobile[8:11]
+
+ot=int(input(f"To login enter the otp send to your mobile number ending {m}"))
+
+word=input("Enter your password \n")
+
+n=len(word)
+
+passw=word[-1:-3].rjust(n-2,"*")
+
+str2=passw+word[n-2:n]
+
+print(f"The ending digits of your password are {str2}")
+
+print("\t\t***********\n\t\t*                             \n\t\t          WELCOME            \n\t\t                             \n\t\t**********")              
+
+
+Enter_name =input("Enter your name:")
+
+print("Welcome" ,Enter_name)
+
+print("Location for our services is operating in:")
+
+print("1.Chitkara")
+
+print("2.Rajpura")
+
+print("3.Zirakpur")
+
+print("4.Chandigarh")
+
+print("5.Mohali")
+
+print("AVAILABLE SERVICES:")
+
+print("\t\…
+[23:21, 22/03/2023] Deepika: email=input("Enter your mail id")
+
+mobile=input("Enter your mobile number")
+
+m=mobile[8:11]
+
+ot=int(input(f"To login enter the otp send to your mobile number ending {m}"))
+
+word=input("Enter your password \n")
+
+n=len(word)
+
+passw=word[-1:-3].rjust(n-2,"*")
+
+str2=passw+word[n-2:n]
+
+print(f"The ending digits of your password are {str2}")
+
+print("\t\t****\n\t\t                             \n\t\t          WELCOME            \n\t\t                             \n\t\t****")              
+
+
+Enter_name =input("Enter your name:")
+
+print("Welcome" ,Enter_name)
+
+print("Location for our services is operating in:")
+
+print("1.Chitkara")
+
+print("2.Rajpura")
+
+print("3.Zirakpur")
+
+print("4.Chandigarh")
+
+print("5.Mohali")
+
+print("AVAILABLE SERVICES:")
+
+print("\t\t 1.AUTO \n\t\t 2.CAB \n\t\t 3.BIKE \n\t\t 4.BUS RESERVATION")
+
+print("Select Transport")
+
+Transport=input()
+
+z=Transport.upper()
+if z==("AUTO"):
+
+    print("You have selected AUTO")
+
+    print("Chitkara univestity to Rajpuraa")
+
+    print("Chitkara uni to Zirakpur")
+
+    print("Chitkara to Mohali")
+
+    print("Rajpuraa to Chitkara university")
+
+    print("Zirakpur to Chitkaraa ")
+
+    print("Mohali to Chitkara ")
+
+    pickup=input("Pick up location :")
+
+    where_to=input("where to :")
+
+    X=pickup.upper()
+
+    Y=where_to.upper()
+
+    if (X=="CHITKARA UNIVERSITY"):
+
+        if (Y=="RAJPURAA"):
+
+            print("price=200")
+            confirming_location=input("CONFIRM YOUR EXACT LOCATION:")
+ 
+            payment_method=("\t\t 1.CASH \n\t\t 2.CARDPAYMENT \n\t\t 3.ONLINE PAYMENT ")
+
+            print(payment_method)
+
+            payment = input("ENTER method of payment:")
+
+            print("TIME TO CONFIRM YOUR RIDE🙂")
+
+            comfirm_ride=input("TO CONFIRM RIDE INPUT xyz:")
+
+            if (comfirm_ride=="xyz"):
+
+                print("\t\t****\n\t\t                             \n\t\t   YOUR RIDE IS CONFIRMED    \n\t\t                             \n\t\t****")
+
+                print("YOU WILL RECEIVE CALL FROM OUR RIDING PARTNERS IN FEW  MINUTES  ")
+
+   
+
+                print("THANKYOU😊")
+
+ 
+
+                feedback =input("ENTER YOUR FEEDBACK;: ")
+                print("THANKYOU FOR YOUR FEEDBACK😊")
+
+    if X==("CHITKARA UNI"):
+
+        if Y==("ZIRAKPUR"):
+
+            print("price=250")
+            confirming_location=input("CONFIRM YOUR EXACT LOCATION:")
+ 
+            payment_method=("\t\t 1.CASH \n\t\t 2.CARDPAYMENT \n\t\t 3.ONLINE PAYMENT ")
+
+            print(payment_method)
+
+            payment = input("ENTER method of payment:")
+
+            print("TIME TO CONFIRM YOUR RIDE🙂")
+
+            comfirm_ride=input("TO CONFIRM  RIDE INPUT xyz:")
+
+            if (comfirm_ride=="xyz"):
+
+                print("\t\t****\n\t\t                             \n\t\t   YOUR RIDE IS CONFIRMED    \n\t\t                             \n\t\t****")
+
+                print("YOU WILL RECEIVE CALL FROM OUR RIDING PARTNERS IN FEW  MINUTES  ")
+
+   
+
+                print("THANKYOU😊")
+
+ 
+
+                feedback =input("ENTER YOUR FEEDBACK;: ")
+                print("THANKYOU FOR YOUR FEEDBACK😊")
+    if (X=="CHITKARA"):
+
+        if (Y=="MOHALI"):
+
+            print("price=500")
+            confirming_location=input("CONFIRM YOUR EXACT LOCATION:")
+ 
+            payment_method=("\t\t 1.CASH \n\t\t 2.CARDPAYMENT \n\t\t 3.ONLINE PAYMENT ")
+
+            print(payment_method)
+
+            payment = input("ENTER method of payment:")
+
+            print("TIME TO CONFIRM YOUR RIDE🙂")
+
+            comfirm_ride=input("TO CONFIRM  RIDE INPUT xyz:")
+
+            if (comfirm_ride=="xyz"):
+
+                print("\t\t****\n\t\t                             \n\t\t   YOUR RIDE IS CONFIRMED    \n\t\t                             \n\t\t****")
+
+                print("YOU WILL RECEIVE CALL FROM OUR RIDING PARTNERS IN FEW  MINUTES  ")
+
+   
+
+                print("THANKYOU😊")
+
+ 
+
+                feedback =input("ENTER YOUR FEEDBACK;: ")
+                print("THANKYOU FOR YOUR FEEDBACK😊")
+
+    if (X=="RAJPURAA"):
+
+        if (Y=="CHITKARA UNIVERSITY"):
+
+            print("price=200")
+            confirming_location=input("CONFIRM YOUR EXACT LOCATION:")
+ 
+            payment_method=("\t\t 1.CASH \n\t\t 2.CARDPAYMENT \n\t\t 3.ONLINE PAYMENT ")
+
+            print(payment_method)
+
+            payment = input("ENTER method of payment:")
+
+            print("TIME TO CONFIRM YOUR RIDE🙂")
+
+            comfirm_ride=input("TO CONFIRM  RIDE INPUT xyz:")
+
+            if (comfirm_ride=="xyz"):
+
+                print("\t\t****\n\t\t                             \n\t\t   YOUR RIDE IS CONFIRMED    \n\t\t                             \n\t\t****")
+
+                print("YOU WILL RECEIVE CALL FROM OUR RIDING PARTNERS IN FEW  MINUTES  ")
+
+   
+
+                print("THANKYOU😊")
+
+ 
+
+                feedback =input("ENTER YOUR FEEDBACK;: ")
+                print("THANKYOU FOR YOUR FEEDBACK😊")
+
+    if (X=="ZIRAKPUR"):
+
+        if (Y=="CHITKARAA"):
+
+            print("price=250")
+            confirming_location=input("CONFIRM YOUR EXACT LOCATION:")
+ 
+            payment_method=("\t\t 1.CASH \n\t\t 2.CARDPAYMENT \n\t\t 3.ONLINE PAYMENT ")
+
+            print(payment_method)
+
+            payment = input("ENTER method of payment:")
+
+            print("TIME TO CONFIRM YOUR RIDE🙂")
+
+            comfirm_ride=input("TO CONFIRM  RIDE INPUT xyz:")
+
+            if (comfirm_ride=="xyz"):
+
+                print("\t\t****\n\t\t                             \n\t\t   YOUR RIDE IS CONFIRMED    \n\t\t                             \n\t\t****")
+
+                print("YOU WILL RECEIVE CALL FROM OUR RIDING PARTNERS IN FEW  MINUTES  ")
+
+   
+
+                print("THANKYOU😊")
+
+ 
+
+                feedback =input("ENTER YOUR FEEDBACK;: ")
+                print("THANKYOU FOR YOUR FEEDBACK😊")
+
+    if X==("MOHALI"):
+
+        if Y==("CHITKARA"):
+
+            print("price=500")
+            confirming_location=input("CONFIRM YOUR EXACT LOCATION:")
+ 
+            payment_method=("\t\t 1.CASH \n\t\t 2.CARDPAYMENT \n\t\t 3.ONLINE PAYMENT ")
+
+            print(payment_method)
+
+            payment = input("ENTER method of payment:")
+
+            print("TIME TO CONFIRM YOUR RIDE🙂")
+
+            comfirm_ride=input("TO CONFIRM  RIDE INPUT xyz:")
+
+            if (comfirm_ride=="xyz"):
+
+                print("\t\t****\n\t\t                             \n\t\t   YOUR RIDE IS CONFIRMED    \n\t\t                             \n\t\t****")
+
+                print("YOU WILL RECEIVE CALL FROM OUR RIDING PARTNERS IN FEW  MINUTES  ")
+
+   
+
+                print("THANKYOU😊")
+
+ 
+
+                feedback =input("ENTER YOUR FEEDBACK;: ")
+                print("THANKYOU FOR YOUR FEEDBACK😊")
+
+
+elif z==("CAB"):
+
+    print("You have selected cab")
+
+    print("Chitkara to Rajpura by pass")
+
+    print("Chitkara COLLEGE to Zirakpur")
+
+    print("Chitkara to Chandigarh")
+
+    print("Chitkara to Mohali")
+
+    print("Rajpuraa to Chitkaraa")
+
+    print("Zirakpur to Chitkaraaa")
+
+    print("Chandigarh to Chitkara")
+
+    print("**Mohali to Chitkara ")
+
+    pickup=input("Pick up location :")
+
+    where_to=input("where to :")
+
+    X==pickup.upper()
+
+    Y==where_to.upper()
+
+    if X=="CHITKARA":
+
+        if Y=="RAJPURA BY PASS":
+
+            print("price=400")
+            confirming_location=input("CONFIRM YOUR EXACT LOCATION:")
+ 
+            payment_method=("\t\t 1.CASH \n\t\t 2.CARDPAYMENT \n\t\t 3.ONLINE PAYMENT ")
+
+            print(payment_method)
+
+            payment = input("ENTER method of payment:")
+
+            print("TIME TO CONFIRM YOUR RIDE🙂")
+
+            comfirm_ride=input("TO CONFIRM  RIDE INPUT xyz:")
+
+            if (comfirm_ride=="xyz"):
+
+                print("\t\t****\n\t\t                             \n\t\t   YOUR RIDE IS CONFIRMED    \n\t\t                             \n\t\t****")
+
+                print("YOU WILL RECEIVE CALL FROM OUR RIDING PARTNERS IN FEW  MINUTES  ")
+
+   
+
+                print("THANKYOU😊")
+
+ 
+
+                feedback =input("ENTER YOUR FEEDBACK;: ")
+                print("THANKYOU FOR YOUR FEEDBACK😊")
+
+    if X==("CHITKARA COLLEGE"):
+
+        if Y==("ZIRAKPUR"):
+
+            print("price=350")
+            confirming_location=input("CONFIRM YOUR EXACT LOCATION:")
+ 
+            payment_method=("\t\t 1.CASH \n\t\t 2.CARDPAYMENT \n\t\t 3.ONLINE PAYMENT ")
+
+            print(payment_method)
+
+            payment = input("ENTER method of payment:")
+
+            print("TIME TO CONFIRM YOUR RIDE🙂")
+
+            comfirm_ride=input("TO CONFIRM  RIDE INPUT xyz:")
+
+            if (comfirm_ride=="xyz"):
+
+                print("\t\t****\n\t\t                             \n\t\t   YOUR RIDE IS CONFIRMED    \n\t\t                             \n\t\t****")
+
+                print("YOU WILL RECEIVE CALL FROM OUR RIDING PARTNERS IN FEW  MINUTES  ")
+
+   
+
+                print("THANKYOU😊")
